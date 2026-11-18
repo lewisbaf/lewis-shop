@@ -1,0 +1,21 @@
+# LEWIS SHOP - robots.txt
+# https://lewisshop.cg (domaine à configurer)
+
+User-agent: *
+Allow: /
+
+# Pages importantes
+Allow: /boutique.html
+Allow: /produit.html
+Allow: /promotions.html
+Allow: /nouveautes.html
+Allow: /a-propos.html
+Allow: /contact.html
+Allow: /faq.html
+Allow: /blog.html
+
+# Ne pas indexer panier et checkout (pages dynamiques utilisateur)
+Disallow: /panier.html
+Disallow: /checkout.html
+
+Sitemap: https://lewisshop.cg/sitemap.xml
