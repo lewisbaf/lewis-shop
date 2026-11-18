@@ -1,0 +1,24 @@
+# LEWIS SHOP - robots.txt
+# Site: https://lewisbaf.github.io/lewis-shop/
+
+User-agent: *
+Allow: /
+
+# Pages prioritaires
+Allow: /index.html
+Allow: /boutique.html
+Allow: /produit.html
+Allow: /promotions.html
+Allow: /nouveautes.html
+Allow: /a-propos.html
+Allow: /contact.html
+Allow: /faq.html
+Allow: /blog.html
+Allow: /livraison-retours.html
+
+# Pages non indexables (parcours utilisateur)
+Disallow: /panier.html
+Disallow: /checkout.html
+
+# Sitemap
+Sitemap: https://lewisbaf.github.io/lewis-shop/sitemap.xml
